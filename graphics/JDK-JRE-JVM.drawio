@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T14:15:12.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="xJhra5YQvOiBrIVlEX6h" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T15:07:36.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jzHcrysl47p0hmCdbAMp" version="24.0.0" type="github" pages="3">
   <diagram name="Page-1" id="pLtwYjjfAMEQppa5POo0">
-    <mxGraphModel dx="954" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,49 @@
         </mxCell>
         <mxCell id="K4Wn42rzAeyPe4-B2cjT-5" value="Profilers, Javacod, etc." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
           <mxGeometry x="414" y="360" width="150" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L5zc3VwgZ7iQEBuvq0PQ" name="Page-2">
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BBNjMf08u3sg2P3ZMVTb-1" value="JVM" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="BBNjMf08u3sg2P3ZMVTb-4" value="JRE" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.application;appType=comp;archiType=square;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;shadow=0;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="199" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BBNjMf08u3sg2P3ZMVTb-2" value="JRE Librairies" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="150" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WvrhsX5nus3j-mAvn829" name="Page-3">
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-1" value="Class Loader" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-2" value="Byte code Verifier" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-3" value="Interpreter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-4" value="JVM" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.application;appType=comp;archiType=square;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;shadow=0;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="239" width="520" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-5" value="Just In Time Compiler" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pYW6rMUywxWcR_VEwhjZ-6" value="Execution Engine" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="305" y="450" width="150" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
