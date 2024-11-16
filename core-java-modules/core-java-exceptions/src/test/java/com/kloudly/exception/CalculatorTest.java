@@ -23,6 +23,7 @@ public class CalculatorTest {
         //Given
         String expectedResult = "1 + 1 = 2";
 
+        //Replace eq('+') with '+' to reproduce the exception
         when(formatter.format(eq('+'),anyDouble(),anyDouble(),anyDouble())).thenReturn(expectedResult);
         //When
         String result = calculator.calculate(1,1,'+');
