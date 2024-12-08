@@ -15,6 +15,7 @@ public class ArraysAndLoops {
     void badArrayInitialization(){
         int[] myIntArray ;
         //System.out.println(myIntArray[0]);// Does not compile. Array is not initialized
+        //myIntArray = {1,2,3,4,5}; // Does not compile. Cannot separate the declaration and the initialization in this context.
     }
     void initializeArray(){
         int[] myIntArray = new int[5];
