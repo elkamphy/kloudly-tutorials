@@ -17,8 +17,8 @@ public class Java21NewFeaturesDemo {
         // patternMatchingSwitch();
         sequencedCollections();
         // kemApi();
-        // virtualThreads();
-        // virtualThreadHighConcurrency();
+        virtualThreads();
+        virtualThreadHighConcurrency();
     }
 
     public static void recordPattern(){
@@ -137,7 +137,6 @@ public class Java21NewFeaturesDemo {
                     })
             );
         }
-
     }
 
     public static void kemApi() throws NoSuchAlgorithmException, DecapsulateException, IOException, InvalidKeyException {
