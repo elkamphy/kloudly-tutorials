@@ -25,7 +25,11 @@ public class ArraysUtility {
 
     static void displayArray(){
         int[] anIntArray = {1,2,3,4,5};
+        int[][] my2DIntArray = {{1,2},{3,4}};
+        System.out.println("**Displaying an array**");
         System.out.println(Arrays.toString(anIntArray));
+        System.out.println("**Displaying a 2D array**");
+        System.out.println(Arrays.deepToString(my2DIntArray));
     }
 
     static void sort(){
