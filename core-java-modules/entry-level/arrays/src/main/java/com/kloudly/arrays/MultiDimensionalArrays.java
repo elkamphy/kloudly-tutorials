@@ -36,7 +36,7 @@ public class MultiDimensionalArrays {
     }
 
     static void initializeNDJaggedArrayWithValues(){
-        int[][] my2DIntJaggedArray = {{1},{3,4},{5,6,7}};//Declaring and initializing at ounce
+        int[][] my2DIntJaggedArray = {{1},{3,4},{5,6,7}};//Declaring and initializing at once
         String[][][] my3DJaggedArrayOfStrings = new String[2][1][];//Declaring and initializing separately
         my3DJaggedArrayOfStrings[0][0] = new String[2];
         my3DJaggedArrayOfStrings[1][0] = new String[3];
