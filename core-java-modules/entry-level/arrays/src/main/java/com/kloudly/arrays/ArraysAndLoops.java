@@ -1,8 +1,10 @@
 package com.kloudly.arrays;
 
+import java.util.Arrays;
+
 public class ArraysAndLoops {
     public static void main(String[] args) {
-        miscellaneousOps();
+        //miscellaneousOps();
     }
 
     void declareArray(){
