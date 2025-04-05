@@ -1,6 +1,6 @@
 package com.kloudly.classes;
 
-public class ClassAndObjectDemo {
+public class ClassAndObjectExamples {
     public static void main(String[] args) {
         demoObject();
         demoMultipleObjects();
