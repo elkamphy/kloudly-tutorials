@@ -1,2 +1,2 @@
 # Relevant articles
-- [Java 21 New Features](https://nkamphoa.com/java-21-new-features)
+- [How to Enable Preview Features in Java](https://nkamphoa.com/how-to-enable-preview-features)
