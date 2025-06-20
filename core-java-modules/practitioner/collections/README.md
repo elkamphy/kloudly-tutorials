@@ -1,2 +1,2 @@
 # Relevant articles
-- [Integrating Maven and Jacoco](https://nkamphoa.com/jacoco-maven-code-coverage-generation/)
+- [Introduction to Collections Framework in Java](https://nkamphoa.com/collections-framework-in-java/)
