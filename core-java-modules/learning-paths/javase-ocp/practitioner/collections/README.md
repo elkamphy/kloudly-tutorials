@@ -1,0 +1,12 @@
+# Relevant articles
+- [Introduction to Collections Framework in Java](https://nkamphoa.com/collections-framework-in-java/)
+- [ArrayList in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/arraylist-in-java/)
+- [LinkedList in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/linkedlist-in-java/)
+- [CopyOnWriteArrayList in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/copyonwritearraylist-in-java/)
+- [HashMap in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/hashmap-in-java/)
+- [Map implementations in Java: A Comparative Analysis](https://nkamphoa.com/map-implementations-in-java/)
+- [HashSet in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/hashset-in-java/)
+- [Set implementations in Java: A Comparative Analysis](https://nkamphoa.com/set-implementations-in-java/)
+- [PriorityQueue in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/priorityqueue-in-java/)
+- [ArrayDeque in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/arraydeque-in-java/)
+- [Queue implementations in Java: A Comparative Analysis](https://nkamphoa.com/queue-implementations-in-java/)
