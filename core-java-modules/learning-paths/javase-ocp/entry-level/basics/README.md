@@ -7,3 +7,5 @@
 - [Super Keyword in Java](https://nkamphoa.com/super-keyword-in-java/)
 - [Instanceof Keyword in Java](https://nkamphoa.com/instanceof-keyword-in-java/)
 - [An Introduction to Packages and Imports in Java](https://nkamphoa.com/packages-and-import-in-java/)
+- [Method Overloading in Java](https://nkamphoa.com/overload-method-in-java/)
+- [Types of Polymorphism in Java : Compile-time vs Runtime](https://nkamphoa.com/types-of-polymorphism-in-java/)
