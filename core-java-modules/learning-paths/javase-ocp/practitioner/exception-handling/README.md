@@ -1,2 +1,3 @@
 # Relevant articles
-- [Integrating Maven and Jacoco](https://nkamphoa.com/jacoco-maven-code-coverage-generation/)
+- [Exception in Java](https://nkamphoa.com/exception-in-java/)
+- [Exception in Java](https://nkamphoa.com/exception-hierarchy-in-java/)
