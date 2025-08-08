@@ -34,4 +34,13 @@ public class Person {
     public int hashCode() {
         return Objects.hash(name, age);
     }
+	
+	    /**
+     * Properly overrides toString() to provide a readable representation.
+     * Outputs all significant, non-sensitive fields in a clear format.
+     */
+    @Override
+    public String toString() {
+        return "Person{name='" + name + "', age=" + age + "}";
+    }
 }
