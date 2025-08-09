@@ -5,17 +5,32 @@ public class HandlingExceptionDemo {
 
     public static void main(String[] args) {
         handleArithmeticException();
+        handleExceptionMultipleCatch();
         handleNullPointerException();
         demonstrateFinallyBlock();
     }
 
-    // Example of catching ArithmeticException
+	// Example of catching ArithmeticException
     public static void handleArithmeticException() {
         try {
             int result = 10 / 0;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero.");
+        }
+    }
+
+    //Example of multiple catch blocs
+    public static void handleExceptionMultipleCatch() {
+        try {
+            int[] numbers = {1, 2, 3};
+            System.out.println(numbers[5]); // May throw ArrayIndexOutOfBoundsException
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array index is out of bounds: " + e.getMessage());
+
+        }catch (Exception e) {
+            System.out.println("A general exception occurred: " + e.getMessage());
         }
     }
 
@@ -36,7 +51,7 @@ public class HandlingExceptionDemo {
         } catch (Exception e) {
             System.out.println("Exception caught.");
         } finally {
-            System.out.println("Finally block executed.");
+            System.out.println("Finally block is always executed.");
         }
     }
 }
