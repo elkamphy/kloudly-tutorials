@@ -10,3 +10,5 @@
 - [PriorityQueue in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/priorityqueue-in-java/)
 - [ArrayDeque in Java: Internal Structure, Performance, and Use Cases](https://nkamphoa.com/arraydeque-in-java/)
 - [Queue implementations in Java: A Comparative Analysis](https://nkamphoa.com/queue-implementations-in-java/)
+- [The Comparable Interface in Java](https://nkamphoa.com/the-comparable-interface-in-java/)
+- [The Comparator Interface in Java](https://nkamphoa.com/the-comparator-interface-in-java/)
