@@ -12,3 +12,4 @@
 - [Queue implementations in Java: A Comparative Analysis](https://nkamphoa.com/queue-implementations-in-java/)
 - [The Comparable Interface in Java](https://nkamphoa.com/the-comparable-interface-in-java/)
 - [The Comparator Interface in Java](https://nkamphoa.com/the-comparator-interface-in-java/)
+- [Using Iterator and for-each loop safely](https://nkamphoa.com/using-iterators-and-for-each-loop-safely/)
