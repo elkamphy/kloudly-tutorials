@@ -1,2 +1,2 @@
 # Relevant articles
-- [Integrating Maven and Jacoco](https://nkamphoa.com/jacoco-maven-code-coverage-generation/)
+- [Nested Classes and Lambdas](https://nkamphoa.com/nested-classes-and-lambdas/)
