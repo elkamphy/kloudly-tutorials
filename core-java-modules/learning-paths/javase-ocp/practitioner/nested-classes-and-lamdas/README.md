@@ -1,2 +1,2 @@
 # Relevant articles
-- [Nested Classes and Lambdas](https://nkamphoa.com/nested-classes-and-lambdas/)
+- [Nested Classes in Java](https://nkamphoa.com/nested-classes-in-java/)
