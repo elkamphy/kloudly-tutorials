@@ -1,0 +1,3 @@
+Java is an OO programming language
+So is C++
+But not C
