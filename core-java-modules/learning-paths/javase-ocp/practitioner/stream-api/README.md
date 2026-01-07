@@ -5,3 +5,4 @@
 - [Aggregating Stream Data Using the reduce Operation](https://nkamphoa.com/reduce-operation-in-java/)
 - [Bi-Argument Functional Interfaces in the Stream API](https://nkamphoa.com/bi-argument-functional-interfaces/)
 - [Parallel Stream Processing: Performance and Risks](https://nkamphoa.com/parallel-stream-processing/)
+- [Spliterator Explained: The Engine Behind Streams](https://nkamphoa.com/spliterator-in-java/)
