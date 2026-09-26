@@ -1,5 +1,6 @@
 package com.kloudly.academy;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -16,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ExecutorServiceDemo {
 
-    public static void main(String[] args) throws InterruptedException, ExecutionException {
+    public static void main(String[] args) throws Exception {
         ExecutorServiceDemo demo = new ExecutorServiceDemo();
 
         System.out.println("=== Section 2: Creating a Fixed Thread Pool ===");
@@ -39,6 +40,10 @@ public class ExecutorServiceDemo {
 
         System.out.println("\n=== Section 6.1: try-with-resources (Java 19+) ===");
         demo.demonstrateTryWithResources();
+        System.out.println("\n=== Section 6.3: CPU Bound tasks demo ===");
+        demo.cpuBoundFixedPoolDemo();
+        System.out.println("\n=== Section 6.3: virtual threads demo (Java 21+) ===");
+        demo.virtualThreadsDemo();
     }
 
     // -------------------------------------------------------------------------
@@ -189,4 +194,58 @@ public class ExecutorServiceDemo {
         }
         System.out.println("Executor closed automatically");
     }
+
+    // -------------------------------------------------------------------------
+    // Section 6.3 — Size the Pool for the Workload - CPU Bound tasks
+    // -------------------------------------------------------------------------
+
+    void cpuBoundFixedPoolDemo() throws Exception {
+        // One thread per core: every core stays busy, no time wasted on context switching
+        int cores = Runtime.getRuntime().availableProcessors();
+        System.out.println("Available cores: " + cores);
+
+        try (ExecutorService executor = Executors.newFixedThreadPool(cores)) {
+            List<Future<Long>> results = new ArrayList<>();
+            long start = System.currentTimeMillis();
+
+            // One CPU-heavy task per core
+            for (int i = 0; i < cores; i++) {
+                results.add(executor.submit(() -> {
+                    long sum = 0;
+                    for (long n = 0; n < 500_000_000L; n++) {
+                        sum += n % 7;
+                    }
+                    return sum;
+                }));
+            }
+
+            for (Future<Long> result : results) {
+                result.get();
+            }
+            System.out.println(cores + " CPU-bound tasks finished in "
+                    + (System.currentTimeMillis() - start) + " ms");
+        }
+    }
+
+    // -------------------------------------------------------------------------
+    // Section 6.3 — Size the Pool for the Workload - Using virtual threads
+    // -------------------------------------------------------------------------
+    void virtualThreadsDemo() {
+        long start = System.currentTimeMillis();
+
+        // One virtual thread per task: 10,000 concurrent "requests" without sizing a pool
+        try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
+            for (int i = 0; i < 10_000; i++) {
+                executor.submit(() -> {
+                    Thread.sleep(1_000); // simulates waiting for a network response
+                    return "done";
+                });
+            }
+        } // close() waits for all 10,000 tasks to finish
+
+        System.out.println("10,000 I/O-bound tasks finished in "
+                + (System.currentTimeMillis() - start) + " ms");
+    }
+
+
 }
