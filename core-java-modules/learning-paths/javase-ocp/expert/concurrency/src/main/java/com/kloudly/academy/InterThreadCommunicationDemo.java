@@ -8,7 +8,7 @@ import java.util.Queue;
  * communication tools: sleep(), yield(), join(), wait(), notify(), notifyAll().
  *
  * <p>This class accompanies the article "Inter-Thread Communication in Java"
- * published at https://nkamphoa.com.
+ * published at <a href="https://nkamphoa.com">...</a>.
  *
  * <p>Each private method corresponds to a code snippet discussed in the article.
  * Run main() to observe all mechanisms in action.
